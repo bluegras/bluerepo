@@ -1,0 +1,12 @@
+{% extends '../includes/base.html' %}
+
+{%block title%}
+logouuuut
+{% endblock %}
+
+{% block content%}
+<p>You've been successfully logged out</p>
+<a href="{%url 'home'%}">Home</a>
+<a href="{%url 'login'%}">Login</a>
+
+{% endblock %}
